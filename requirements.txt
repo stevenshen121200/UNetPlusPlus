@@ -1,6 +1,7 @@
 tensorflow-gpu==1.4.1
 keras==2.2.2
 pydot
+numpy
 
 # Application wise
 simpleitk

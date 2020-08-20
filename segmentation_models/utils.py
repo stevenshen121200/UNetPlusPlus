@@ -2,6 +2,7 @@
 from functools import wraps
 import numpy as np
 
+
 def get_layer_number(model, layer_name):
     """
     Help find layer in Keras model by name

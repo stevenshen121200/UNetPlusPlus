@@ -20,28 +20,14 @@ warnings.filterwarnings('ignore')
 import os
 import keras
 print("Keras = {}".format(keras.__version__))
-import tensorflow as tf
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # or any {'0', '1', '2'}
-from tqdm import tqdm
-import matplotlib.pyplot as plt
-import numpy as np
-import pylab
 import sys
-import math
-import SimpleITK as sitk
-from matplotlib import offsetbox
-import matplotlib.pyplot as plt
 import shutil
-from sklearn import metrics
-import random
 from random import shuffle
 from keras.callbacks import LambdaCallback, TensorBoard
-from glob import glob
-from skimage.transform import resize
 from optparse import OptionParser
 from segmentation_models import Nestnet, Unet, Xnet
 from helper_functions import *
-from keras.utils import plot_model
 
 sys.setrecursionlimit(40000)
 
